@@ -1,0 +1,73 @@
+header{
+  position: relative;
+  z-index: 2;
+}
+main{
+  position: relative;
+  margin-top: -7.5rem;
+  z-index: 1;
+}
+nav{
+  width: 80%;
+}
+.navbar-nav{
+  width: 100%;
+}
+#carousel{
+  height: 99vh;
+  background: #f59f00;
+}
+
+.carousel__slogan{
+  height: 83vh;
+  padding-left: 6rem;
+  padding-top: 7rem;
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+.carousel__title{
+  font-size: 6rem;
+}
+.carousel__subtitle{
+  font-size: 2rem;
+  width: 31.8vw;
+}
+.carousel__bold{
+  font-weight: bold;
+}
+.carousel__items{
+  gap:2rem
+}
+.carousel__item{
+  border: 1px dashed white;
+  border-radius: 50px;
+  font-size: 1.5rem;
+}
+.carousel{
+  z-index: 1;
+}
+.carousel__slogan{
+  width: 50vw;
+}
+.carousel-item{
+  height: 85vh;
+  width: 50vw;
+  padding-right: 4rem;
+
+}
+.carousel-item img{
+  height: 100%;
+  object-fit: cover;
+}
+.carousel-inner{
+  width: 50vw;
+}
+.forminfo{
+  width: auto;
+}
+.forminfo__button{
+  height: 100%;
+  width: 20rem;
+  border-radius: 0px;
+}
