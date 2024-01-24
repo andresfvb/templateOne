@@ -3,34 +3,45 @@ header{
   z-index: 2;
 }
 main{
-  position: relative;
-  margin-top: -7.5rem;
+  position: absolute;
+  top: 0;
   z-index: 1;
 }
 nav{
   width: 80%;
 }
+.navbar-nav span{
+  font-size: 0.8rem;
+}
+.logo{
+  width: 10rem;
+}
+.subtitle{
+  font-size: 1.5rem;
+}
 .navbar-nav{
   width: 100%;
 }
-#carousel{
-  height: 99vh;
-  background: #f59f00;
+.sections{
+  height: 97.5vh;
 }
+#carousel{
+  background: #F09E27;
 
+}
 .carousel__slogan{
-  height: 83vh;
+  height: 80vh;
   padding-left: 6rem;
-  padding-top: 7rem;
+  padding-top: 3rem;
   position: relative;
   z-index: 2;
   color: white;
 }
 .carousel__title{
-  font-size: 6rem;
+  font-size: 4rem;
 }
 .carousel__subtitle{
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 31.8vw;
 }
 .carousel__bold{
@@ -41,33 +52,40 @@ nav{
 }
 .carousel__item{
   border: 1px dashed white;
-  border-radius: 50px;
-  font-size: 1.5rem;
+  border-radius: 30px;
+  font-size: 1.3rem;
 }
 .carousel{
   z-index: 1;
 }
-.carousel__slogan{
-  width: 50vw;
-}
 .carousel-item{
   height: 85vh;
-  width: 50vw;
   padding-right: 4rem;
-
 }
 .carousel-item img{
   height: 100%;
   object-fit: cover;
 }
-.carousel-inner{
-  width: 50vw;
-}
-.forminfo{
-  width: auto;
-}
+
 .forminfo__button{
   height: 100%;
-  width: 20rem;
   border-radius: 0px;
+}
+.forminfo__button {
+  font-size: 0.8rem;
+}
+#liderazgo{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/personas-que-utilizan-dispositivos-digitales-reunion.jpg");
+  background-size: cover;
+  backdrop-filter: brightness(50%);
+  color: white;
+}
+.liderazgo__left{
+  background: rgba(0, 0, 0, 0.236);
+  backdrop-filter: opacity(0.2);
+  padding-left: 10rem;
+}
+.liderazgo__item{
+
+  background: #FF810A;
 }
