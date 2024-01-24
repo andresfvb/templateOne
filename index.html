@@ -11,121 +11,204 @@
   <link rel="stylesheet" href="style/styles.css">
 </head>
 
-<body class="container-fluid">
-  <header class="bg-dark navbar-dark align-items-stretch justify-content-between ps-5 row fixed-md-top" style="--bs-bg-opacity: .8;">
-    <!-- Menu -->
-    <nav class="navbar navbar-expand-lg navbar-dark p-0 col-10" >
-      <div class="container-fluid d-flex align-items-stretch p-0">
-        <a class="navbar-brand d-flex flex-row mb-2 align-items-center" href="#">
-          <h2 class="subtitle border-end pe-3">Postgrados</h2>
-          <img class="logo" src="/img/logo-icesi-a-otro-nivel-blanco.png" alt="Logotipo" width="250"
-            class="d-inline-block align-text-top">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse d-flex align-items-stretch" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-between align-items-stretch">
-            <li class="nav-item d-flex align-items-stretch flex-fill">
-              <a class="nav-link d-flex align-items-center justify-content-center flex-fill active" aria-current="page" href="#">
-                <span>Inicio</span></a>
-            </li>
-            <li class="nav-item d-flex align-items-stretch flex-fill">
-              <a class="nav-link d-flex align-items-center flex-fill justify-content-center" href="#">
-                <span>Liderazgo Transformacional</span></a>
-            </li>
-            <li class="nav-item d-flex align-items-stretch flex-fill">
-              <a class="nav-link d-flex align-items-center flex-fill justify-content-center" href="#">
-                <span>Analítica Digital e innovación</span></a>
-            </li>
-            <li class="nav-item d-flex align-items-stretch flex-fill">
-              <a class="nav-link d-flex align-items-center flex-fill justify-content-center" href="#">
-                <span>Profundización Profesional</span></a>
-            </li>
-            <li class="nav-item d-flex align-items-stretch flex-fill">
-              <a class="nav-link d-flex align-items-center flex-fill justify-content-center" href="#">
-                <span>Productividad</span></a>
-            </li>
-          </ul>
+<body>
+  <header class="container-fluid bg-dark navbar-dark align-items-stretch justify-content-between ps-5 fixed-md-top" style="--bs-bg-opacity: .8;">
+    <div class="row">
+      <!-- Menu -->
+      <nav class="navbar navbar-expand-lg navbar-dark p-0 col-10" >
+        <div class="container-fluid d-flex align-items-stretch p-0">
+          <a class="navbar-brand d-flex flex-row mb-2 align-items-center" href="#">
+            <h2 class="subtitle border-end pe-3">Postgrados</h2>
+            <img class="logo" src="/img/logo-icesi-a-otro-nivel-blanco.png" alt="Logotipo" width="250"
+              class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex align-items-stretch" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-between align-items-stretch">
+              <li class="nav-item d-flex align-items-stretch flex-fill">
+                <a class="nav-link d-flex align-items-center justify-content-center flex-fill active" aria-current="page" href="#">
+                  <span>Inicio</span></a>
+              </li>
+              <li class="nav-item d-flex align-items-stretch flex-fill">
+                <a class="nav-link d-flex align-items-center flex-fill justify-content-center" href="#liderazgo">
+                  <span>Liderazgo Transformacional</span></a>
+              </li>
+              <li class="nav-item d-flex align-items-stretch flex-fill">
+                <a class="nav-link d-flex align-items-center flex-fill justify-content-center" href="#analitica">
+                  <span>Analítica Digital e innovación</span></a>
+              </li>
+              <li class="nav-item d-flex align-items-stretch flex-fill">
+                <a class="nav-link d-flex align-items-center flex-fill justify-content-center" href="#profundizacion">
+                  <span>Profundización Profesional</span></a>
+              </li>
+              <li class="nav-item d-flex align-items-stretch flex-fill">
+                <a class="nav-link d-flex align-items-center flex-fill justify-content-center" href="#productividad">
+                  <span>Productividad</span></a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <!-- Formulario -->
-    <div class="forminfo d-grid col-2 p-0">
-      <button class="btn btn-primary forminfo__button" type="button" data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="bi bi-chat-left-dots"></i> Solicitar información</button>
-
-      <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
-        aria-labelledby="offcanvasWithBothOptionsLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </nav>
+      <!-- Formulario -->
+      <div class="forminfo d-grid col-2 p-0">
+        <button class="btn btn-primary forminfo__button" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="bi bi-chat-left-dots"></i> Solicitar información</button>
+  
+        <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+          aria-labelledby="offcanvasWithBothOptionsLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
         </div>
       </div>
     </div>
     
   </header>
   <main class="content-page">
-    <div class="container-fluid p-0">
+
     <!-- Slider -->
-    <section id="carousel" class="row sections d-flex flex-row align-items-end">
-      <div class="text-emphasis-warning carousel__slogan d-flex flex-wrap col-md-6">
-        <div class="carousel__section d-flex flex-nowrap flex-column">
-          <h3 class="carousel__title">#UnPlusParaTuCarrera</h3>
-          <p class="carousel__subtitle">En Icesi impulsamos las <span class="carousel__bold">las competencias</span> de la
-          <span class="carousel__bold">nueva generación de profecionales</span> con:</p>
-          <div class="carousel__items d-flex mx">
-            <p class="carousel__item p-2"><i class="bi bi-check-circle-fill"></i>Maestrías</p>
-            <p class="carousel__item p-2"><i class="bi bi-check-circle-fill"></i>Especializaciones</p>
+    <section id="carousel" class="sections container-fluid d-flex flex-row align-items-end">
+      <div class="row">
+        <div class="text-emphasis-warning carousel__slogan d-flex flex-wrap col-md-6">
+          <div class="carousel__section d-flex flex-nowrap flex-column">
+            <h3 class="carousel__title">#UnPlusParaTuCarrera</h3>
+            <p class="carousel__subtitle">En Icesi impulsamos las <span class="carousel__bold">las competencias</span> de la
+            <span class="carousel__bold">nueva generación de profecionales</span> con:</p>
+            <div class="carousel__items d-flex mx">
+              <p class="carousel__item p-2"><i class="bi bi-check-circle-fill"></i>Maestrías</p>
+              <p class="carousel__item p-2"><i class="bi bi-check-circle-fill"></i>Especializaciones</p>
+            </div>
+            <div class="carousel__explorer">
+              <button type="button" class="btn btn-light text-primary btn-lg px-5 py-4"><i class="bi bi-arrow-right"></i> Explora más</button>
+            </div>
           </div>
-          <div class="carousel__explorer">
-            <button type="button" class="btn btn-light text-primary btn-lg px-5 py-4"><i class="bi bi-arrow-right"></i> Explora más</button>
+        </div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade col-md-6 p-0" >
+          <div class="carousel-inner">
+            <div class="carousel-item active ">
+              <img src="img/chicasempresa.webp" class="w-100" alt="Mujeres empresariales">
+            </div>
+            <div class="carousel-item">
+              <img src="img/estudiante.webp" class="w-100" alt="Hombre estudiante">
+            </div>
           </div>
         </div>
       </div>
-      <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade col-md-6 p-0" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active ">
-            <img src="img/chicasempresa.webp" class="w-100" alt="Mujeres empresariales">
-          </div>
-          <div class="carousel-item">
-            <img src="img/estudiante.webp" class="w-100" alt="Hombre estudiante">
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="liderazgo" class="row sections" style="--bs-bg-opacity: .2;">
-      <div class="liderazgo__left col-md-5 d-grid align-items-center flex-nowrap text-emphasis-warning">
-        <div class="liderazgo__info">
-          <h2 class="mb-4">Liderazgo Transformacional</h2>
-          <p>Está pensado para formatear el cambio y la creatividad,
-            en este proceso se busca influir, guiar e inspirar a los colaboradores para crear en conjunto cambios que ayuden a impulsar el futuro de una organización.
-          </p>
-          <button type="button" class="btn btn-light text-primary btn-md px-5 py-3 "><i class="bi bi-arrow-right"></i> Descubre los programas</button>
-        </div>
-      </div>
-      <div class="liderazgo__right col-md-7 d-grid p-5 align-items-center flex-nowrap text-emphasis-warning">
-        <div class="liderazgo__items">
-          <h4>Características</h4>
-          <div class="row gap-1">
-            <div class="liderazgo__item col-md-3"> <i class="bi bi-journal-bookmark"></i><p>Gestión de Proyectos</p></div>
-            <div class="liderazgo__item col-md-3"><i class="bi bi-hand-thumbs-up"></i><p>Gestión de Conflictos</p></div>
-            <div class="liderazgo__item col-md-3"><i class="bi bi-alarm"></i><p>Gestión del Tiempo</p></div>
-            <div class="liderazgo__item col-md-3"><i class="bi bi-lightbulb"></i><p>Creatividad</p></div>
-          </div>
-        </div>
-      </div>
-    </section>
+    </section>      
     <!-- Section of "Liderazgo Transpofrmacional"-->
+    <section id="liderazgo" class="sections container-fluid" style="--bs-bg-opacity: .2;">
+      <div class="row h-100">
+        <div class="section__left h-100 col-md-5 d-grid align-items-center flex-nowrap text-emphasis-warning">
+          <div class="section__info">
+            <h2 class="mb-4">Liderazgo Transformacional</h2>
+            <p>Está pensado para formatear el cambio y la creatividad,
+              en este proceso se busca influir, guiar e inspirar a los colaboradores para crear en conjunto cambios que ayuden a impulsar el futuro de una organización.
+            </p>
+            <button type="button" class="btn btn-light text-primary btn-md px-5 py-3 "><i class="bi bi-arrow-right"></i> Descubre los programas</button>
+          </div>
+        </div>
+        <div class="section__right col-md-7 d-grid p-5 align-items-center flex-nowrap text-emphasis-warning">
+          <div class="section__items">
+            <h4 class="mb-3">Características</h4>
+            <div class="container-fluid">
+              <div class="row gap-3 text-center">
+                <div class="section__item col px-5 py-4 d-flex align-items-center justify-content-center flex-wrap"><i class="bi bi-journal-bookmark fs-2"></i><p>Gestión de Proyectos</p></div>
+                <div class="section__item col px-5 py-4 d-flex align-items-center justify-content-center flex-wrap"><i class="bi bi-hand-thumbs-up fs-2"></i><p>Gestión de Conflictos</p></div>
+                <div class="section__item col px-5 py-4 d-flex align-items-center justify-content-center flex-wrap"><i class="bi bi-alarm fs-2"></i><p>Gestión del Tiempo</p></div>
+                <div class="section__item col px-5 py-4 d-flex align-items-center justify-content-center flex-wrap"><i class="bi bi-lightbulb fs-2"></i><p>Creatividad</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Section of "Analitica digital e innovacion"-->
+    <section id="analitica" class="sections container-fluid" style="--bs-bg-opacity: .2;">
+      <div class="row h-100">
+        <div class="section__left h-100 col-md-5 d-grid align-items-center flex-nowrap text-emphasis-warning">
+          <div class="section__info">
+            <h2 class="mb-4">Liderazgo Transformacional</h2>
+            <p>Está pensado para formatear el cambio y la creatividad,
+              en este proceso se busca influir, guiar e inspirar a los colaboradores para crear en conjunto cambios que ayuden a impulsar el futuro de una organización.
+            </p>
+            <button type="button" class="btn btn-light text-primary btn-md px-5 py-3 "><i class="bi bi-arrow-right"></i> Descubre los programas</button>
+          </div>
+        </div>
+        <div class="section__right col-md-7 d-grid p-5 align-items-center flex-nowrap text-emphasis-warning">
+          <div class="section__items">
+            <h4 class="mb-3">Características</h4>
+            <div class="container-fluid">
+              <div class="row gap-3 text-center">
+                <div class="section__item col px-5 py-4 d-flex align-items-center justify-content-center flex-wrap"><i class="bi bi-journal-bookmark fs-2"></i><p>Gestión de Proyectos</p></div>
+                <div class="section__item col px-5 py-4 d-flex align-items-center justify-content-center flex-wrap"><i class="bi bi-hand-thumbs-up fs-2"></i><p>Gestión de Conflictos</p></div>
+                <div class="section__item col px-5 py-4 d-flex align-items-center justify-content-center flex-wrap"><i class="bi bi-alarm fs-2"></i><p>Gestión del Tiempo</p></div>
+                <div class="section__item col d-flex align-items-center justify-content-center flex-wrap"><i class="bi bi-lightbulb fs-2"></i><p>Creatividad</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Section of "Profundización profesional"-->
+    <section id="profundizacion" class="sections container-fluid" style="--bs-bg-opacity: .2;">
+      <div class="row h-100">
+        <div class="section__left h-100 col-md-5 d-grid align-items-center flex-nowrap text-emphasis-warning">
+          <div class="section__info">
+            <h2 class="mb-4">Liderazgo Transformacional</h2>
+            <p>Está pensado para formatear el cambio y la creatividad,
+              en este proceso se busca influir, guiar e inspirar a los colaboradores para crear en conjunto cambios que ayuden a impulsar el futuro de una organización.
+            </p>
+            <button type="button" class="btn btn-light text-primary btn-md px-5 py-3 "><i class="bi bi-arrow-right"></i> Descubre los programas</button>
+          </div>
+        </div>
+        <div class="sections__right col-md-7 d-grid p-5 align-items-center flex-nowrap text-emphasis-warning">
+          <div class="section__items">
+            <h4 class="mb-3">Características</h4>
+            <div class="container-fluid">
+              <div class="row gap-3 text-center">
+                <div class="section__item col px-5 py-4 d-flex align-items-center justify-content-center flex-wrap"><i class="bi bi-journal-bookmark fs-2"></i><p>Gestión de Proyectos</p></div>
+                <div class="section__item col px-5 py-4 d-flex align-items-center justify-content-center flex-wrap"><i class="bi bi-hand-thumbs-up fs-2"></i><p>Gestión de Conflictos</p></div>
+                <div class="section__item col px-5 py-4 d-flex align-items-center justify-content-center flex-wrap"><i class="bi bi-alarm fs-2"></i><p>Gestión del Tiempo</p></div>
+                <div class="section__item col d-flex align-items-center justify-content-center flex-wrap"><i class="bi bi-lightbulb fs-2"></i><p>Creatividad</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Section of "Productividad"-->
+    <section id="productividad" class="sections container-fluid" style="--bs-bg-opacity: .2;">
+      <div class="row h-100">
+        <div class="section__left h-100 col-md-5 d-grid align-items-center flex-nowrap text-emphasis-warning">
+          <div class="section__info">
+            <h2 class="mb-4">Liderazgo Transformacional</h2>
+            <p>Está pensado para formatear el cambio y la creatividad,
+              en este proceso se busca influir, guiar e inspirar a los colaboradores para crear en conjunto cambios que ayuden a impulsar el futuro de una organización.
+            </p>
+            <button type="button" class="btn btn-light text-primary btn-md px-5 py-3 "><i class="bi bi-arrow-right"></i> Descubre los programas</button>
+          </div>
+        </div>
+        <div class="section__right col-md-7 d-grid p-5 align-items-center flex-nowrap text-emphasis-warning">
+          <div class="sections__items">
+            <h4 class="mb-3">Características</h4>
+            <div class="container-fluid">
+              <div class="row gap-3 text-center">
+                <div class="section__item col px-5 py-4 d-flex align-items-center justify-content-center flex-wrap"><i class="bi bi-journal-bookmark fs-2"></i><p>Gestión de Proyectos</p></div>
+                <div class="section__item col px-5 py-4 d-flex align-items-center justify-content-center flex-wrap"><i class="bi bi-hand-thumbs-up fs-2"></i><p>Gestión de Conflictos</p></div>
+                <div class="section__item col px-5 py-4 d-flex align-items-center justify-content-center flex-wrap"><i class="bi bi-alarm fs-2"></i><p>Gestión del Tiempo</p></div>
+                <div class="section__item col d-flex align-items-center justify-content-center flex-wrap"><i class="bi bi-lightbulb fs-2"></i><p>Creatividad</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Calendario de eventos-->
     <!-- Expereiencias de egresados -->
-    </div>
-
-
   </main>
   <footer>
     <!-- Logo-->

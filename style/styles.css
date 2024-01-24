@@ -11,23 +11,24 @@ nav{
   width: 80%;
 }
 .navbar-nav span{
-  font-size: 0.8rem;
+  font-size: 0.9vw;
 }
 .logo{
-  width: 10rem;
+  width: 12vw;
 }
 .subtitle{
-  font-size: 1.5rem;
+  font-size: 2vw;
 }
 .navbar-nav{
   width: 100%;
 }
 .sections{
-  height: 97.5vh;
+  height: 100vh;
 }
 #carousel{
-  background: #F09E27;
-
+  background-image: linear-gradient(#f0a027e4, #f0a027da), url("/img/retrato-empresarios-felices-masculinos-femeninos.webp");;
+  background-size: cover;
+  backdrop-filter: brightness(50%);
 }
 .carousel__slogan{
   height: 80vh;
@@ -38,10 +39,10 @@ nav{
   color: white;
 }
 .carousel__title{
-  font-size: 4rem;
+  font-size: 4.8vw;
 }
 .carousel__subtitle{
-  font-size: 1.5rem;
+  font-size: 3.4vh;
   width: 31.8vw;
 }
 .carousel__bold{
@@ -75,17 +76,50 @@ nav{
   font-size: 0.8rem;
 }
 #liderazgo{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/personas-que-utilizan-dispositivos-digitales-reunion.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/estilo-vida-personas-oficina.webp");
+}
+#analitica{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/grupo-companeros-trabajo-oficina-hablando.webp")
+}
+#profundizacion{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/personas-que-utilizan-dispositivos-digitales-reunion.webp");
+}
+#productividad{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/equipo-trabajando-juntos-proyecto.webp");
+}
+#productividad, #liderazgo, #analitica, #profundizacion{
   background-size: cover;
   backdrop-filter: brightness(50%);
   color: white;
 }
-.liderazgo__left{
+.section__left{
   background: rgba(0, 0, 0, 0.236);
   backdrop-filter: opacity(0.2);
   padding-left: 10rem;
+  height: 100%;
 }
-.liderazgo__item{
-
+#liderazgo .section__item{
   background: #FF810A;
+  padding: 1.5rem 4.5rem;
+}
+#analitica .section__item{
+  background: #339af0;
+  padding: 1.5rem 4.5rem;
+}
+#profundizacion .section__item{
+  background: #fa5252;
+  padding: 1.5rem 4.5rem;
+}
+#productividad .section__item{
+  background: #3bc9db;
+  padding: 1.5rem 4.5rem;
+}
+.section__item i{
+  margin-bottom: .5rem;
+}
+.section__info{
+  width: 80%;
+}
+.section__info h2{
+  font-size: 2.7vw;
 }
